@@ -1,0 +1,176 @@
+/*CSS reset inicio*/
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/*CSS reset fim*/
+
+.header{
+    width: 100vw;
+    display: inline-block;
+}
+
+.navBar{
+    background-color:lightgreen;
+}
+
+.navBar2{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.navBar, .navBar2{
+    height: 7.5vh;
+    line-height: 7.5vh;
+    vertical-align: middle;
+}
+
+.navOption{
+    margin-right: 2vw;
+    float: right;
+}
+
+.navOption2, .namePok{
+    width: 30vw;
+    height: 7.5vh;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    text-align: center;
+}
+
+.navLogo{
+    height: 7.5vh;
+    float: left;
+}
+
+.content{
+    height: 90vh;
+    width: 100vw;
+    margin-top: -0.8vh;
+    text-align: center;
+    background-color: cyan;
+}
+
+.cardOptions{
+    width: 80vw;
+    margin-top: 5vh;
+    display: inline-block;
+}
+
+.card{
+    height: 260px;
+    width: 18vw;
+    margin: 1vh 1vw;
+    background-color: white;
+    float: left;
+}
+
+.presentation{
+    background-color:   cornflowerblue;
+    height: 215px;
+    width: 215px;
+    border: solid 5px cornflowerblue;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.presentation:hover{
+    width: 450px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.picture{
+    background-color: white;
+}
+
+.description{
+    width: 215px;
+    margin: 5px 5px 30px 5px;
+}
+
+.attribute{
+    width: 107.5px;
+    margin: 2.5px;
+}
+
+.picture, .attribute, .description{
+    float: left;
+}
+
+.presentation, .detail{
+    margin-top: 5vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: inline-block;
+}
+
+.detail{
+    width: 400px;
+    border-radius: 1vw;
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+.table{
+    margin-top: 10px;
+}
+
+td{
+    width: 100px;
+}
+.sectionCad{
+    
+}
+.theForm{
+    width: 60vw;
+    margin: 5vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-top: 2vh;
+    background-color: rgb(47, 200, 164);
+    text-align: right;
+    float: right;
+}
+.theForm .centerCad{
+    
+    text-align: center;
+}
+
+.newAtt{
+    width: 60vw;
+    margin: 1vh 1vw;
+}
+
+.newAttDesc{
+    width: 10vw;
+    margin-left: 0vh 10vw;
+}
+
+.newAttVal{
+    width: 20vw;
+    margin-right: 20vw;
+}
+
+.imgCad{
+    width: 15vw;
+}
